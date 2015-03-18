@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0620"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1322643E1AB91B54006D2D07"
+               BuildableName = "SmartWallet WatchKit App.app"
+               BlueprintName = "SmartWallet WatchKit App"
+               ReferencedContainer = "container:SmartWallet.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "132264061AB91B43006D2D07"
+               BuildableName = "SmartWallet.app"
+               BlueprintName = "SmartWallet"
+               ReferencedContainer = "container:SmartWallet.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1322642F1AB91B54006D2D07"
+               BuildableName = "SmartWallet WatchKit Extension.appex"
+               BlueprintName = "SmartWallet WatchKit Extension"
+               ReferencedContainer = "container:SmartWallet.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1322643E1AB91B54006D2D07"
+            BuildableName = "SmartWallet WatchKit App.app"
+            BlueprintName = "SmartWallet WatchKit App"
+            ReferencedContainer = "container:SmartWallet.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES"
+      notificationPayloadFile = "SmartWallet WatchKit Extension/PushNotificationPayload.apns">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/(null)">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1322643E1AB91B54006D2D07"
+            BuildableName = "SmartWallet WatchKit App.app"
+            BlueprintName = "SmartWallet WatchKit App"
+            ReferencedContainer = "container:SmartWallet.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1322643E1AB91B54006D2D07"
+            BuildableName = "SmartWallet WatchKit App.app"
+            BlueprintName = "SmartWallet WatchKit App"
+            ReferencedContainer = "container:SmartWallet.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/SmartWallet">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1322643E1AB91B54006D2D07"
+            BuildableName = "SmartWallet WatchKit App.app"
+            BlueprintName = "SmartWallet WatchKit App"
+            ReferencedContainer = "container:SmartWallet.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1322643E1AB91B54006D2D07"
+            BuildableName = "SmartWallet WatchKit App.app"
+            BlueprintName = "SmartWallet WatchKit App"
+            ReferencedContainer = "container:SmartWallet.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

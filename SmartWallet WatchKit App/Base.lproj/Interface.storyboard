@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6751" systemVersion="14C1510" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="r6g-Kj-Z7C">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Glance Interface Controller-->
+        <scene sceneID="BOz-TT-tkC">
+            <objects>
+                <glanceController spacing="0.0" id="0uZ-2p-rRc" customClass="GlanceController" customModule="SmartWallet_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group alignment="left" id="t8f-Gd-c4y"/>
+                        <group alignment="left" id="uCw-4Q-Ouw"/>
+                    </items>
+                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="14"/>
+                </glanceController>
+            </objects>
+            <point key="canvasLocation" x="235" y="672"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="XkS-y5-khE"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="XkS-y5-khE" id="49B-RR-99y"/>
+                        <segue destination="gdX-wl-uQE" kind="relationship" relationship="dynamicNotificationInterface" id="fKh-qV-3T2"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="235" y="1001"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="KIl-fV-djm">
+            <objects>
+                <controller id="gdX-wl-uQE" customClass="NotificationController" customModule="SmartWallet_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="553" y="1001"/>
+        </scene>
+        <!--1-->
+        <scene sceneID="xRk-ml-9eY">
+            <objects>
+                <controller identifier="1" id="r6g-Kj-Z7C" customClass="InterfaceController" customModule="SmartWallet_WatchKit_Extension">
+                    <items>
+                        <imageView alignment="center" image="costco" id="BHc-NC-Kmd"/>
+                        <button width="1" alignment="left" title="Pay" id="v8r-cN-cFj">
+                            <connections>
+                                <action selector="payCard1" destination="r6g-Kj-Z7C" id="6nN-3p-14y"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="imgCard1" destination="BHc-NC-Kmd" id="U8q-nm-P6q"/>
+                        <segue destination="4Uh-dg-Nd4" kind="relationship" relationship="nextPage" id="ffs-c3-uQY"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="275" y="369"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="ShD-45-rkT">
+            <objects>
+                <controller id="4Uh-dg-Nd4" customClass="InterfaceController" customModule="SmartWallet_WatchKit_Extension">
+                    <items>
+                        <imageView alignment="center" image="ikea" id="zJj-Ve-2bb"/>
+                        <button width="1" alignment="left" title="Pay" id="dTV-0r-cJd">
+                            <connections>
+                                <action selector="payCard2" destination="4Uh-dg-Nd4" id="UGu-iH-HUN"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="imgCard2" destination="zJj-Ve-2bb" id="f4S-rn-NOs"/>
+                        <segue destination="n9E-Uk-Uzj" kind="relationship" relationship="nextPage" id="UUj-yE-QLF"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="511" y="369"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="3TM-iu-KVi">
+            <objects>
+                <controller id="n9E-Uk-Uzj" customClass="InterfaceController" customModule="SmartWallet_WatchKit_Extension">
+                    <items>
+                        <imageView alignment="center" image="longos" id="IZt-ca-Nng"/>
+                        <button width="1" alignment="left" title="Pay" id="eN8-wd-ChV">
+                            <connections>
+                                <action selector="payCard3" destination="n9E-Uk-Uzj" id="sLX-qg-fg8"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="imgCard3" destination="IZt-ca-Nng" id="Iet-Vp-tAq"/>
+                        <segue destination="ixy-xl-TJJ" kind="relationship" relationship="nextPage" id="cm2-w7-KX6"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="712" y="369"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="W2u-gm-gSm">
+            <objects>
+                <controller id="ixy-xl-TJJ" customClass="InterfaceController" customModule="SmartWallet_WatchKit_Extension">
+                    <items>
+                        <imageView alignment="center" image="sobeys" id="vuD-XC-Xmt"/>
+                        <button width="1" alignment="left" title="Pay" id="zJH-Z0-3V5">
+                            <connections>
+                                <action selector="payCard4" destination="ixy-xl-TJJ" id="HS0-Yb-ZUa"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="imgCard3" destination="vuD-XC-Xmt" id="KSu-Dz-nOH"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="921" y="369"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1322640D1AB91B43006D2D07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1322640C1AB91B43006D2D07 /* AppDelegate.swift */; };
+		1322640F1AB91B43006D2D07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1322640E1AB91B43006D2D07 /* ViewController.swift */; };
+		132264121AB91B43006D2D07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 132264101AB91B43006D2D07 /* Main.storyboard */; };
+		132264141AB91B43006D2D07 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 132264131AB91B43006D2D07 /* Images.xcassets */; };
+		132264171AB91B43006D2D07 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 132264151AB91B43006D2D07 /* LaunchScreen.xib */; };
+		132264231AB91B43006D2D07 /* SmartWalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132264221AB91B43006D2D07 /* SmartWalletTests.swift */; };
+		132264361AB91B54006D2D07 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132264351AB91B54006D2D07 /* InterfaceController.swift */; };
+		132264381AB91B54006D2D07 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132264371AB91B54006D2D07 /* NotificationController.swift */; };
+		1322643A1AB91B54006D2D07 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132264391AB91B54006D2D07 /* GlanceController.swift */; };
+		1322643C1AB91B54006D2D07 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1322643B1AB91B54006D2D07 /* Images.xcassets */; };
+		132264401AB91B54006D2D07 /* SmartWallet WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 1322643F1AB91B54006D2D07 /* SmartWallet WatchKit App.app */; };
+		132264481AB91B54006D2D07 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 132264461AB91B54006D2D07 /* Interface.storyboard */; };
+		1322644A1AB91B54006D2D07 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 132264491AB91B54006D2D07 /* Images.xcassets */; };
+		1322644D1AB91B54006D2D07 /* SmartWallet WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 132264301AB91B54006D2D07 /* SmartWallet WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1322641D1AB91B43006D2D07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 132263FF1AB91B43006D2D07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 132264061AB91B43006D2D07;
+			remoteInfo = SmartWallet;
+		};
+		132264411AB91B54006D2D07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 132263FF1AB91B43006D2D07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1322643E1AB91B54006D2D07;
+			remoteInfo = "SmartWallet WatchKit App";
+		};
+		1322644B1AB91B54006D2D07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 132263FF1AB91B43006D2D07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1322642F1AB91B54006D2D07;
+			remoteInfo = "SmartWallet WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		132264541AB91B55006D2D07 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1322644D1AB91B54006D2D07 /* SmartWallet WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		132264071AB91B43006D2D07 /* SmartWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1322640B1AB91B43006D2D07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1322640C1AB91B43006D2D07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1322640E1AB91B43006D2D07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		132264111AB91B43006D2D07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		132264131AB91B43006D2D07 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		132264161AB91B43006D2D07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1322641C1AB91B43006D2D07 /* SmartWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		132264211AB91B43006D2D07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		132264221AB91B43006D2D07 /* SmartWalletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartWalletTests.swift; sourceTree = "<group>"; };
+		132264301AB91B54006D2D07 /* SmartWallet WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SmartWallet WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		132264331AB91B54006D2D07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		132264341AB91B54006D2D07 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		132264351AB91B54006D2D07 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		132264371AB91B54006D2D07 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		132264391AB91B54006D2D07 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		1322643B1AB91B54006D2D07 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1322643F1AB91B54006D2D07 /* SmartWallet WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SmartWallet WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		132264451AB91B54006D2D07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		132264471AB91B54006D2D07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		132264491AB91B54006D2D07 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		132264041AB91B43006D2D07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		132264191AB91B43006D2D07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1322642D1AB91B54006D2D07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		132263FE1AB91B43006D2D07 = {
+			isa = PBXGroup;
+			children = (
+				132264091AB91B43006D2D07 /* SmartWallet */,
+				1322641F1AB91B43006D2D07 /* SmartWalletTests */,
+				132264311AB91B54006D2D07 /* SmartWallet WatchKit Extension */,
+				132264431AB91B54006D2D07 /* SmartWallet WatchKit App */,
+				132264081AB91B43006D2D07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		132264081AB91B43006D2D07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				132264071AB91B43006D2D07 /* SmartWallet.app */,
+				1322641C1AB91B43006D2D07 /* SmartWalletTests.xctest */,
+				132264301AB91B54006D2D07 /* SmartWallet WatchKit Extension.appex */,
+				1322643F1AB91B54006D2D07 /* SmartWallet WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		132264091AB91B43006D2D07 /* SmartWallet */ = {
+			isa = PBXGroup;
+			children = (
+				1322640C1AB91B43006D2D07 /* AppDelegate.swift */,
+				1322640E1AB91B43006D2D07 /* ViewController.swift */,
+				132264101AB91B43006D2D07 /* Main.storyboard */,
+				132264131AB91B43006D2D07 /* Images.xcassets */,
+				132264151AB91B43006D2D07 /* LaunchScreen.xib */,
+				1322640A1AB91B43006D2D07 /* Supporting Files */,
+			);
+			path = SmartWallet;
+			sourceTree = "<group>";
+		};
+		1322640A1AB91B43006D2D07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1322640B1AB91B43006D2D07 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1322641F1AB91B43006D2D07 /* SmartWalletTests */ = {
+			isa = PBXGroup;
+			children = (
+				132264221AB91B43006D2D07 /* SmartWalletTests.swift */,
+				132264201AB91B43006D2D07 /* Supporting Files */,
+			);
+			path = SmartWalletTests;
+			sourceTree = "<group>";
+		};
+		132264201AB91B43006D2D07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				132264211AB91B43006D2D07 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		132264311AB91B54006D2D07 /* SmartWallet WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				132264351AB91B54006D2D07 /* InterfaceController.swift */,
+				132264371AB91B54006D2D07 /* NotificationController.swift */,
+				132264391AB91B54006D2D07 /* GlanceController.swift */,
+				1322643B1AB91B54006D2D07 /* Images.xcassets */,
+				132264321AB91B54006D2D07 /* Supporting Files */,
+			);
+			path = "SmartWallet WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		132264321AB91B54006D2D07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				132264331AB91B54006D2D07 /* Info.plist */,
+				132264341AB91B54006D2D07 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		132264431AB91B54006D2D07 /* SmartWallet WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				132264461AB91B54006D2D07 /* Interface.storyboard */,
+				132264491AB91B54006D2D07 /* Images.xcassets */,
+				132264441AB91B54006D2D07 /* Supporting Files */,
+			);
+			path = "SmartWallet WatchKit App";
+			sourceTree = "<group>";
+		};
+		132264441AB91B54006D2D07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				132264451AB91B54006D2D07 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		132264061AB91B43006D2D07 /* SmartWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 132264261AB91B43006D2D07 /* Build configuration list for PBXNativeTarget "SmartWallet" */;
+			buildPhases = (
+				132264031AB91B43006D2D07 /* Sources */,
+				132264041AB91B43006D2D07 /* Frameworks */,
+				132264051AB91B43006D2D07 /* Resources */,
+				132264541AB91B55006D2D07 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1322644C1AB91B54006D2D07 /* PBXTargetDependency */,
+			);
+			name = SmartWallet;
+			productName = SmartWallet;
+			productReference = 132264071AB91B43006D2D07 /* SmartWallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1322641B1AB91B43006D2D07 /* SmartWalletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 132264291AB91B43006D2D07 /* Build configuration list for PBXNativeTarget "SmartWalletTests" */;
+			buildPhases = (
+				132264181AB91B43006D2D07 /* Sources */,
+				132264191AB91B43006D2D07 /* Frameworks */,
+				1322641A1AB91B43006D2D07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1322641E1AB91B43006D2D07 /* PBXTargetDependency */,
+			);
+			name = SmartWalletTests;
+			productName = SmartWalletTests;
+			productReference = 1322641C1AB91B43006D2D07 /* SmartWalletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1322642F1AB91B54006D2D07 /* SmartWallet WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 132264511AB91B55006D2D07 /* Build configuration list for PBXNativeTarget "SmartWallet WatchKit Extension" */;
+			buildPhases = (
+				1322642C1AB91B54006D2D07 /* Sources */,
+				1322642D1AB91B54006D2D07 /* Frameworks */,
+				1322642E1AB91B54006D2D07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				132264421AB91B54006D2D07 /* PBXTargetDependency */,
+			);
+			name = "SmartWallet WatchKit Extension";
+			productName = "SmartWallet WatchKit Extension";
+			productReference = 132264301AB91B54006D2D07 /* SmartWallet WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		1322643E1AB91B54006D2D07 /* SmartWallet WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1322644E1AB91B55006D2D07 /* Build configuration list for PBXNativeTarget "SmartWallet WatchKit App" */;
+			buildPhases = (
+				1322643D1AB91B54006D2D07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SmartWallet WatchKit App";
+			productName = "SmartWallet WatchKit App";
+			productReference = 1322643F1AB91B54006D2D07 /* SmartWallet WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		132263FF1AB91B43006D2D07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Adriel Service";
+				TargetAttributes = {
+					132264061AB91B43006D2D07 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					1322641B1AB91B43006D2D07 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 132264061AB91B43006D2D07;
+					};
+					1322642F1AB91B54006D2D07 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					1322643E1AB91B54006D2D07 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 132264021AB91B43006D2D07 /* Build configuration list for PBXProject "SmartWallet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 132263FE1AB91B43006D2D07;
+			productRefGroup = 132264081AB91B43006D2D07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				132264061AB91B43006D2D07 /* SmartWallet */,
+				1322641B1AB91B43006D2D07 /* SmartWalletTests */,
+				1322642F1AB91B54006D2D07 /* SmartWallet WatchKit Extension */,
+				1322643E1AB91B54006D2D07 /* SmartWallet WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		132264051AB91B43006D2D07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				132264121AB91B43006D2D07 /* Main.storyboard in Resources */,
+				132264171AB91B43006D2D07 /* LaunchScreen.xib in Resources */,
+				132264141AB91B43006D2D07 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1322641A1AB91B43006D2D07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1322642E1AB91B54006D2D07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1322643C1AB91B54006D2D07 /* Images.xcassets in Resources */,
+				132264401AB91B54006D2D07 /* SmartWallet WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1322643D1AB91B54006D2D07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				132264481AB91B54006D2D07 /* Interface.storyboard in Resources */,
+				1322644A1AB91B54006D2D07 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		132264031AB91B43006D2D07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1322640F1AB91B43006D2D07 /* ViewController.swift in Sources */,
+				1322640D1AB91B43006D2D07 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		132264181AB91B43006D2D07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				132264231AB91B43006D2D07 /* SmartWalletTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1322642C1AB91B54006D2D07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				132264381AB91B54006D2D07 /* NotificationController.swift in Sources */,
+				132264361AB91B54006D2D07 /* InterfaceController.swift in Sources */,
+				1322643A1AB91B54006D2D07 /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1322641E1AB91B43006D2D07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 132264061AB91B43006D2D07 /* SmartWallet */;
+			targetProxy = 1322641D1AB91B43006D2D07 /* PBXContainerItemProxy */;
+		};
+		132264421AB91B54006D2D07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1322643E1AB91B54006D2D07 /* SmartWallet WatchKit App */;
+			targetProxy = 132264411AB91B54006D2D07 /* PBXContainerItemProxy */;
+		};
+		1322644C1AB91B54006D2D07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1322642F1AB91B54006D2D07 /* SmartWallet WatchKit Extension */;
+			targetProxy = 1322644B1AB91B54006D2D07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		132264101AB91B43006D2D07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				132264111AB91B43006D2D07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		132264151AB91B43006D2D07 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				132264161AB91B43006D2D07 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		132264461AB91B54006D2D07 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				132264471AB91B54006D2D07 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		132264241AB91B43006D2D07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		132264251AB91B43006D2D07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		132264271AB91B43006D2D07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = SmartWallet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		132264281AB91B43006D2D07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = SmartWallet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1322642A1AB91B43006D2D07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmartWalletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartWallet.app/SmartWallet";
+			};
+			name = Debug;
+		};
+		1322642B1AB91B43006D2D07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmartWalletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartWallet.app/SmartWallet";
+			};
+			name = Release;
+		};
+		1322644F1AB91B55006D2D07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = SmartWallet_WatchKit_Extension;
+				INFOPLIST_FILE = "SmartWallet WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		132264501AB91B55006D2D07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = SmartWallet_WatchKit_Extension;
+				INFOPLIST_FILE = "SmartWallet WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		132264521AB91B55006D2D07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SmartWallet WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		132264531AB91B55006D2D07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SmartWallet WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		132264021AB91B43006D2D07 /* Build configuration list for PBXProject "SmartWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				132264241AB91B43006D2D07 /* Debug */,
+				132264251AB91B43006D2D07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		132264261AB91B43006D2D07 /* Build configuration list for PBXNativeTarget "SmartWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				132264271AB91B43006D2D07 /* Debug */,
+				132264281AB91B43006D2D07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		132264291AB91B43006D2D07 /* Build configuration list for PBXNativeTarget "SmartWalletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1322642A1AB91B43006D2D07 /* Debug */,
+				1322642B1AB91B43006D2D07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1322644E1AB91B55006D2D07 /* Build configuration list for PBXNativeTarget "SmartWallet WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1322644F1AB91B55006D2D07 /* Debug */,
+				132264501AB91B55006D2D07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		132264511AB91B55006D2D07 /* Build configuration list for PBXNativeTarget "SmartWallet WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				132264521AB91B55006D2D07 /* Debug */,
+				132264531AB91B55006D2D07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 132263FF1AB91B43006D2D07 /* Project object */;
+}
